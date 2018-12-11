@@ -12,6 +12,12 @@
 1. Choosing convenient hardware and system components
   - Alternative tools and problem oriented design
   - Foreseeing the technology
+  * Fast prototyping
+
+  * Energy consumption
+
+  * Portability
+
 
 2. Dealing with possible future problems
   - Problems in C/C++
@@ -20,18 +26,21 @@
 
 [Markdown](#)
 
- 
 
 
-## Choosing convenient hardware and system components
 
-### Fast prototyping
 
-### Energy consumption
-
-### portability
 
 ```markdown
+
+extern "C"{
+  typedef struct {
+    int x;
+    int y;
+    int z;
+
+    }Struct;
+}
 Syntax highlighted code block
 
 # Header 1
