@@ -11,12 +11,14 @@
 
 1. Choosing convenient hardware and system components
   - Alternative tools and problem oriented design
-
+  - Foreseeing the technology
 
 2. Dealing with possible future problems
+  - Problems in C/C++
+  - C based problems
+  - Comparison of some possible solutions
 
-
-(www.google.com)
+[Markdown](www.google.com)
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
