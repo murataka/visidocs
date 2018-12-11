@@ -31,9 +31,8 @@
 
 
 
-```markdown
 
-extern "C"{
+```ruby
   typedef struct {
     int x;
     int y;
@@ -41,6 +40,10 @@ extern "C"{
 
     }Struct;
 }
+```
+
+```markdown
+
 Syntax highlighted code block
 
 # Header 1
