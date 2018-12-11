@@ -7,7 +7,7 @@
 
 #### This repository is intended to be useful for developers who will begin to deal such a project , or already ongoing projects.   
 
-#List of problems we discuss here:
+# List of problems we discuss here:
 
 1. Choosing convenient hardware and system components
   - Alternative tools and problem oriented design
@@ -16,7 +16,7 @@
 2. Dealing with possible future problems
 
 
-[link www.google.com]
+(www.google.com)
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
