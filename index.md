@@ -1,12 +1,11 @@
-## Welcome to GitHub Pages
+## Software Quality assurance for multiprocess systems in C/C++ language
 
-You can use the [editor on GitHub](https://github.com/murataka/visidocs/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Abstarct
 
-### Markdown
+####In low level languages like C, we face some common problems if we are accessing the memory (ram) frequently. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### This paper is intended to be useful for developers who will begin to deal such a project , or already ongoing projects.   
 
 ```markdown
 Syntax highlighted code block
