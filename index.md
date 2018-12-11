@@ -3,7 +3,7 @@
 
 ### Abstarct
 
-####In low level languages like C, we face some common problems if we are accessing the memory (ram) frequently. 
+##### In low level languages like C, we face some common problems if we are accessing the memory (ram) frequently. 
 
 #### This paper is intended to be useful for developers who will begin to deal such a project , or already ongoing projects.   
 
