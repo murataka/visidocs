@@ -32,7 +32,7 @@
 
 
 
-```C
+```c
   typedef struct {
     int x;
     int y;
