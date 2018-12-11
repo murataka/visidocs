@@ -32,14 +32,14 @@
 
 
 
-```ruby
+```C
   typedef struct {
     int x;
     int y;
     int z;
 
     }Struct;
-}
+
 ```
 
 ```markdown
