@@ -18,13 +18,18 @@
   - C based problems
   - Comparison of some possible solutions
 
-[Markdown](www.google.com)
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+[Markdown](#)
 
-### Jekyll Themes
+ 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/murataka/visidocs/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
+## Choosing convenient hardware and system components
+
+### Fast prototyping
+
+### Energy consumption
+
+### portability
 
 ```markdown
 Syntax highlighted code block
