@@ -47,25 +47,30 @@ typedef struct {
 
 ```
 
-```markdown
 
-Syntax highlighted code block
+# Case1
 
-# Header 1
-## Header 2
-### Header 3
+Here we use the malloc function to get some memory from the system.
+This function must be used carefully if really needed. In fact , we do use dynamic memory in other cases , and even pass some data to an other function.
+In many years, i did not need to use malloc or its descendents.
+Leaving the organization of those variables , even if they are dynamic, is just possible. see other cases...
 
-- Bulleted
-- List
+```c
+int case1(int argc, ...){
+datas=(Datas*)malloc(sizeof(datas));
 
-1. Numbered
-2. List
+datas[0].x++; /* uninitialized values are dangerous.
+compilers and valgrind does not give warnings.
+*/
 
-**Bold** and _Italic_ and `Code` text
+/*
+we have just dropped a  memory leak here.
+free( datas);
+ */
 
-[Link](url) and ![Image](src)
+/*  datas=NULL; /// This is the way to prevent some of the leakedges. */
+return   datas[0].x;
+}
+
+
 ```
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
