@@ -24,21 +24,26 @@
   - C based problems
   - Comparison of some possible solutions
 
-[Markdown](#)
-
-
-
-
-
-
 
 ```c
-  typedef struct {
-    int x;
-    int y;
-    int z;
+/* Declarations */
 
-    }Struct;
+
+int (*cases[10])(int argc,...);
+typedef int(*Case)(int argc,...);
+
+
+
+typedef struct {
+  int x;
+  int y;
+  int z;
+
+}Datas;
+
+
+  Datas *datas,*safedatas;
+
 
 ```
 
